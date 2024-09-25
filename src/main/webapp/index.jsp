@@ -14,6 +14,6 @@
 <a href="${pageContext.request.contextPath}/owner">Owner</a>
 <a href="${pageContext.request.contextPath}/maintenance">Maintenance</a>
 <a href="${pageContext.request.contextPath}/mechanician">Mechanician</a>
-<a href="${pageContext.request.contextPath}//pilotPlaneType">Pilot plane type</a>
+<a href="${pageContext.request.contextPath}/pilotPlaneType">Pilot plane type</a>
 </body>
 </html>
