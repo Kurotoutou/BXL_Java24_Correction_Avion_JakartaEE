@@ -6,11 +6,12 @@ import jakarta.persistence.MappedSuperclass;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.Objects;
 
 @MappedSuperclass
-public class BaseEntity<T> {
+public class BaseEntity<T extends Serializable> implements IEntity<T> {
 
     @Id
     @GeneratedValue

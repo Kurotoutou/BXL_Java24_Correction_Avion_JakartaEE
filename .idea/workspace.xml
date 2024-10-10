@@ -9,79 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37b74d0c-016d-4473-9439-d4aa85dba2f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/entities/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/entities/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/entities/Maintenance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/entities/Mechanician.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/entities/Owner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/entities/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/entities/Pilot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/entities/PilotPlaneType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/entities/Plane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/entities/PlaneType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/models/dtos/plane/PlaneDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/repositories/BaseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/repositories/MaintenanceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/repositories/MechanicianRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/repositories/OwnerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/repositories/PilotPlaneTypeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/repositories/PilotRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/repositories/PlaneRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/repositories/PlaneTypeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/repositories/impls/BaseRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/repositories/impls/MaintenanceRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/repositories/impls/MechanicianRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/repositories/impls/OwnerRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/repositories/impls/PilotPlaneTypeRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/repositories/impls/PilotRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/repositories/impls/PlaneRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/repositories/impls/PlaneTypeRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/services/MaintenanceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/services/MechanicianService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/services/OwnerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/services/PilotPlanTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/services/PilotService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/services/PlaneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/services/PlaneTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/services/impls/MaintenanceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/services/impls/MechanicianServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/services/impls/OwnerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/services/impls/PilotPlaneTypeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/services/impls/PilotServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/services/impls/PlaneServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/services/impls/PlaneTypeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/servlets/maintenance/MaintenanceIndexServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/servlets/mechanician/MechanicianIndexServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/servlets/owner/OwnerIndexServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/servlets/pilot/PilotIndexServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/servlets/pilotPlaneType/PilotPlaneTypeIndexServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/servlets/plane/PlaneIndexServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/servlets/planeType/PlaneTypeIndexServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/utils/DataInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/utils/EntityManagerFactoryProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/maintenance/maintenanceIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/mechanician/mechanicianIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/owner/ownerIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pilot/pilotIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pilotPlaneType/pilotPlaneTypeIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/plane/planeIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/planeType/planeTypeIndex.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="37b74d0c-016d-4473-9439-d4aa85dba2f5" name="Changes" comment="lol">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/entities/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/entities/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/entities/PilotPlaneType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/entities/PilotPlaneType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/repositories/impls/BaseRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/digitalycity/java/bxl_java24_correction_avion_jakartaee/repositories/impls/BaseRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pilotPlaneType/pilotPlaneTypeFlightHours.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pilotPlaneType/pilotPlaneTypeFlightHours.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,15 +24,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
         <option value="Jsp File" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kurotoutou&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kurotoutou/BXL_Java24_Correction_Avion_JakartaEE.git&quot;,
+    &quot;accountId&quot;: &quot;3a154d9b-d95b-4fd6-8dda-75e732a0a4c7&quot;
+  }
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -130,16 +75,16 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 10.1.30.executor": "Run",
+    "Tomcat Server.Tomcat 10.1.30.executor": "Debug",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Stagiaire/IdeaProjects/BXL_Java24_Correction_Avion_JakartaEE",
+    "last_opened_file_path": "C:/Users/Stagiaire/IdeaProjects/DemoWebAppJakartaEE",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.intellij.sdk.settings.AppSettingsConfigurable",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -264,11 +209,42 @@
       <workItem from="1727160785150" duration="15390000" />
       <workItem from="1727246818327" duration="54000" />
       <workItem from="1727246959405" duration="17000" />
-      <workItem from="1727247175051" duration="8052000" />
+      <workItem from="1727247175051" duration="8562000" />
+      <workItem from="1727678950507" duration="360000" />
+      <workItem from="1728543051078" duration="4661000" />
     </task>
+    <task id="LOCAL-00001" summary="lol">
+      <option name="closed" value="true" />
+      <created>1727257768151</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727257768151</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lol">
+      <option name="closed" value="true" />
+      <created>1727257795411</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727257795411</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lol">
+      <option name="closed" value="true" />
+      <created>1727258171261</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727258171261</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lol" />
+    <option name="LAST_COMMIT_MESSAGE" value="lol" />
   </component>
 </project>

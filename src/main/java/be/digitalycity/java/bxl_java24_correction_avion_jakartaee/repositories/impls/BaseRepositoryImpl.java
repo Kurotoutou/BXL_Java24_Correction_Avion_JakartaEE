@@ -1,5 +1,7 @@
 package be.digitalycity.java.bxl_java24_correction_avion_jakartaee.repositories.impls;
 
+import be.digitalycity.java.bxl_java24_correction_avion_jakartaee.entities.BaseEntity;
+import be.digitalycity.java.bxl_java24_correction_avion_jakartaee.entities.IEntity;
 import be.digitalycity.java.bxl_java24_correction_avion_jakartaee.repositories.BaseRepository;
 import be.digitalycity.java.bxl_java24_correction_avion_jakartaee.utils.EntityManagerFactoryProvider;
 import jakarta.persistence.EmbeddedId;
@@ -7,12 +9,13 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Id;
 
+import java.io.Serializable;
 import java.lang.reflect.Field;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-public class BaseRepositoryImpl<TEntity, Tid> implements BaseRepository<TEntity, Tid> {
+public class BaseRepositoryImpl<TEntity extends IEntity, Tid> implements BaseRepository<TEntity, Tid> {
 
     protected final EntityManagerFactory emf;
     private final Class<TEntity> entityClass;
@@ -27,7 +30,12 @@ public class BaseRepositoryImpl<TEntity, Tid> implements BaseRepository<TEntity,
 
         try (EntityManager em = emf.createEntityManager()){
             em.getTransaction().begin();
-            em.merge(entity);
+            if (entity.getId() != null) {
+                em.merge(entity);
+            }
+            else {
+                em.persist(entity);
+            }
             em.getTransaction().commit();
             return entity;
         }

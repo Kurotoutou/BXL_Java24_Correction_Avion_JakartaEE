@@ -5,6 +5,11 @@
     <title>Title</title>
 </head>
 <body>
-
+    <h1>Pilot flight hours per plane type</h1>
+    <ul>
+        <c:forEach var="pilotPlaneType" items="${pilotPlaneType}">
+            <li>${pilotPlaneType.pilot.name}</li>
+        </c:forEach>
+    </ul>
 </body>
 </html>

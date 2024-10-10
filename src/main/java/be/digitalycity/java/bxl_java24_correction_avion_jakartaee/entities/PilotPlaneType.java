@@ -3,11 +3,12 @@ package be.digitalycity.java.bxl_java24_correction_avion_jakartaee.entities;
 import jakarta.persistence.*;
 import org.hibernate.validator.constraints.Range;
 
+import java.io.Serializable;
 import java.time.LocalTime;
 import java.util.Objects;
 
 @Entity
-public class PilotPlaneType {
+public class PilotPlaneType implements IEntity<PilotPlaneType.PilotePlaneTypeId> {
 
     @EmbeddedId
     private PilotePlaneTypeId id;
@@ -28,7 +29,7 @@ public class PilotPlaneType {
     private PlaneType planeType;
 
     @Embeddable
-    public static class PilotePlaneTypeId {
+    public static class PilotePlaneTypeId implements Serializable {
         private Long piloteId;
         private Long planeTypeId;
     }
